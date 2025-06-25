@@ -14,8 +14,8 @@ function sendEmail($to, $subject, $body) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'vidhansharma2103@gmail.com';         // your Gmail address
-        $mail->Password   = 'kruq svws jidr ccmk';           // Gmail App Password
+        $mail->Username   = 'vidhansharma2103@gmail.com';        
+        $mail->Password   = 'kruq **** **** ****';           
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
